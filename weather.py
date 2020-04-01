@@ -21,7 +21,7 @@ def weather_by_city(city_name):
                 except(IndexError, TypeError):
                     return False
     except (requests.RequestException, ValueError):
-        print('Сетевая ошибка')
+        print('Network error')
         return False
     return False
 
