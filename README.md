@@ -1,1 +1,1 @@
-# service
+# Blog application on Flask
